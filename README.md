@@ -9,6 +9,7 @@ This project provides a simple Python script that converts a fraction to a perce
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
+- [Test Results](#test-results)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -61,7 +62,7 @@ The script will prompt you to enter a fraction, convert it to a percentage, and 
 To run the tests, use the `pytest` command:
 
 ```bash
-pytest
+(venv) ...\Fraction-to-Gauge-Converter>pytest test_fraction_module.py
 ```
 
 This will run all the test functions and provide a report on their success or failure.
@@ -72,6 +73,24 @@ This will run all the test functions and provide a report on their success or fa
 - **`test_convert_zero_division_error`**: Ensures `convert` raises a `ZeroDivisionError` when the denominator is zero.
 - **`test_convert_success`**: Checks that `convert` returns the correct percentages for valid inputs.
 - **`test_gauge`**: Verifies that `gauge` returns the correct gauge representation based on the fraction value.
+
+## Test Results
+
+The output might look like this:
+
+```
+(venv) ...\Fraction-to-Gauge-Converter>pytest test_fraction_module.py
+======================================================= test session starts =======================================================
+platform win32 -- Python 3.11.7, pytest-8.2.2, pluggy-1.5.0
+rootdir: D:\professional\Fraction-to-Gauge-Converter       
+collected 4 items
+
+test_fraction_module.py ....                                                                                                 [100%] 
+
+======================================================== 4 passed in 0.14s ======================================================== 
+
+(venv) ...\Fraction-to-Gauge-Converter>
+```
 
 ## Contributing
 
