@@ -112,4 +112,3 @@ For any inquiries or feedback, please contact me at [bonheurndezenc@gmail.com](m
 ---
 
 Thank you for using this script! If you find it helpful, please consider giving it a star on GitHub.
-```
