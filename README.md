@@ -62,7 +62,7 @@ The script will prompt you to enter a fraction, convert it to a percentage, and 
 To run the tests, use the `pytest` command:
 
 ```bash
-(venv) ...\Fraction-to-Gauge-Converter>pytest test_fraction_module.py
+(venv) @bonheurNE07 ➜ /workspaces/Fraction-to-Gauge-Converter (main) $ pytest test_fraction_module.py
 ```
 
 This will run all the test functions and provide a report on their success or failure.
@@ -79,17 +79,16 @@ This will run all the test functions and provide a report on their success or fa
 The output might look like this:
 
 ```
-(venv) ...\Fraction-to-Gauge-Converter>pytest test_fraction_module.py
-======================================================= test session starts =======================================================
-platform win32 -- Python 3.11.7, pytest-8.2.2, pluggy-1.5.0
-rootdir: D:\professional\Fraction-to-Gauge-Converter       
-collected 4 items
+(venv) @bonheurNE07 ➜ /workspaces/Fraction-to-Gauge-Converter (main) $ pytest test_fraction_module.py
+===================================================== test session starts =====================================================
+platform linux -- Python 3.10.13, pytest-8.2.2, pluggy-1.5.0
+rootdir: /workspaces/Fraction-to-Gauge-Converter
+collected 4 items                                                                                                             
 
-test_fraction_module.py ....                                                                                                 [100%] 
+test_fraction_module.py ....                                                                                            [100%]
 
-======================================================== 4 passed in 0.14s ======================================================== 
-
-(venv) ...\Fraction-to-Gauge-Converter>
+====================================================== 4 passed in 0.02s ======================================================
+(venv) @bonheurNE07 ➜ /workspaces/Fraction-to-Gauge-Converter (main) $ 
 ```
 
 ## Contributing
