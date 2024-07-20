@@ -25,3 +25,12 @@ def test_convert_success():
     assert convert("3/4") == 75
     assert convert("1/1") == 100
 
+def test_gauge():
+    """
+    Test that gauge function returns the correct gauge string for given percentages.
+    """
+    assert gauge(1) == "E"
+    assert gauge(50) == "50%"
+    assert gauge(99) == "F"
+    assert gauge(100) == "F"
+
