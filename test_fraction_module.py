@@ -17,3 +17,11 @@ def test_convert_zero_division_error():
     with pytest.raises(ZeroDivisionError):
         convert("1/0")
 
+def test_convert_success():
+    """
+    Test that convert function returns the correct percentage for valid fractions.
+    """
+    assert convert("1/2") == 50
+    assert convert("3/4") == 75
+    assert convert("1/1") == 100
+
