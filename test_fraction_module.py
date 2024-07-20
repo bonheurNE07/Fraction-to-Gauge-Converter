@@ -10,3 +10,10 @@ def test_convert_value_error():
     with pytest.raises(ValueError):
         convert("3/2")
 
+def test_convert_zero_division_error():
+    """
+    Test that convert function raises a ZeroDivisionError for a denominator of zero.
+    """
+    with pytest.raises(ZeroDivisionError):
+        convert("1/0")
+
